@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+
+    <!-- Load an icon library -->
+
+<div class="navbar" width="100%">
+ <a href="main.html"><i class="fa fa-fw fa-home"></i> الصفحة الرئيسة</a>
+ <a href="help.html"><i class="fa fa-fw fa-search"></i> مساعدة</a>
+ <a class="active" href="contact.html"><i class="fa fa-fw fa-envelope"></i> للتواصل</a>
+</div> 
+   <img src="logo.jpg" alt="logo" height="300px" width="100%">
+    <h1>contact</h1>
+    <a href="main.html">العودة إلى الصفحة الرئيسية</a>
+
+    <form action="main.html" method="get">
+        <fieldset style="font-size: 1.5em;">
+            <legend>فورمة للتواصل</legend>
+            <label for="name">الاسم :</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">البريد الاليكتروني :</label>
+            <input type="email" name="email" id="email"><br>
+            <textarea cols="50" rows="5" name="textarea">يرجى كتابة ما يرجى الاستفسار عنه ...</textarea><br>
+            <input type="submit" value="ارسال الاستفسار">
+        </fieldset>
+    </form>
+</body>
+</html>
